@@ -1,0 +1,10 @@
+user_name = (input("What is your name?"))
+name_count = len(user_name)
+
+print("There are " + str(name_count) + " letters in your name, " + user_name + ".")
+
+city = (input("What city were you born in?"))
+pet = (input("And what is the name of your favorite pet?"))
+
+print("Since your name is " + user_name + ", and you were born in " + city + ", and your favorite pet's name is "
+      + pet + ", your band name could be 'The " + city +' ' + pet + " " + str(name_count) +"'!")
